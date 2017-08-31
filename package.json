@@ -1,0 +1,16 @@
+{
+  "name": "is-single-swap-enough",
+  "version": "1.0.0",
+  "description": "Will your array be sorted only after single swap?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "single",
+    "swap",
+    "array"
+  ],
+  "author": "showmeyourhits",
+  "license": "WTFPL"
+}
