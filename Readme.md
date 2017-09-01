@@ -37,6 +37,8 @@ isSingleSwapEnough(array, [comparator]) => boolean
 Array of `any` items. If compare function is not passed, then assumed, that this is `number[]`
 #### comparator
 *Optional*. Function that does compare items in array. For more info [go to MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+#### isSortingDescending
+*Optional*. Defines sort order: defaults to `false`.
 
 ---
 
