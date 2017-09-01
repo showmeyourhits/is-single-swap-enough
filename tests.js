@@ -20,6 +20,14 @@ test('Method should return true in certain cases without passed comparator', (t)
 	t.equal(foo([1, 5, 3, 3, 7]), true, '[1, 5, 3, 3, 7]');
 	t.equal(foo([2, 2, 2, 5, 4]), true, '[2, 2, 2, 5, 4]');
 	t.equal(foo([1, 5, 3, 3, 2, 6]), true, '[1, 5, 3, 3, 2, 6]');
+
+	const array = [];
+	for (let i = 1; i <= 100000; i++) {
+		array.push(10);
+	}
+	array[0] = 1000;
+	t.equal(foo(array), true, 'over 99999');
+
 	t.end();
 });
 	

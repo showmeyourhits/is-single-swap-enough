@@ -30,7 +30,7 @@ isSingleSwapEnough([40, 50, 10]); // false
 ## Documentation
 #### isSingleSwapEnough
 ```javascript
-isSingleSwapEnough(array, [comparator]) => boolean
+isSingleSwapEnough(array, [comparator], [isSortingDescending]) => boolean
 ```
 ### Arguments
 #### array
